@@ -12,7 +12,7 @@ private var AssociatedObjectHandleLeftKey: UInt8 = 0
 private var AssociatedObjectHandleRightKey: UInt8 = 1
 
 extension UISwitch{
-    func addTextsInSwitch(_ switchText:[String], textColor:UIColor? = nil,textFont:UIFont = UIFont.systemFont(ofSize: 12)) {
+    func addTextsInSwitch(_ switchText:[String], textColor:UIColor? = nil,textFont:UIFont = UIFont.systemFont(ofSize: 13)) {
         var leftString = ""
         var rightString = ""
         if switchText.count > 0{
